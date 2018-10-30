@@ -147,10 +147,10 @@
                 }
                 if(dataType == 'custom') {
                     var prepend = document.getElementById("prepend").value,
-                    splitLeft = document.getElementById("splitLeft").value,
-                    splitRight = document.getElementById("splitRight").value,
-                    append = document.getElementById("append").value;
-                    buildJsAll(table, output);
+                        splitLeft = document.getElementById("splitLeft").value,
+                        splitRight = document.getElementById("splitRight").value,
+                        append = document.getElementById("append").value;
+                        buildJsAll(table, output);
                 }
                 if(dataType == 'jsArray') {
                     var prepend = '<br>var row_',
