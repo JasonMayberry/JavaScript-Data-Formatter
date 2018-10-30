@@ -146,9 +146,9 @@
                         buildJsAll(table, output);
                 }
                 if(dataType == 'custom') {
-                    prepend = document.getElementById("prepend").value;
-                    splitLeft = document.getElementById("splitLeft").value;
-                    splitRight = document.getElementById("splitRight").value;
+                    var prepend = document.getElementById("prepend").value,
+                    splitLeft = document.getElementById("splitLeft").value,
+                    splitRight = document.getElementById("splitRight").value,
                     append = document.getElementById("append").value;
                     buildJsAll(table, output);
                 }
